@@ -13,16 +13,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Ik heb geen moeite met html en css, maar nog wel met javascript</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Dex Twisk
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+surface plane
  
 </details>
 
@@ -33,17 +33,17 @@ hier je focus (kies uit responsive óf surface plane)
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Ik zou de tesla website willen namaken maar dan anders</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://shop.tesla.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Homepagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Detailpagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>

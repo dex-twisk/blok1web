@@ -40,11 +40,11 @@ https://shop.tesla.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/teslahomepagina.jpg" width="" alt="omschrijving van de pagina">
+<img src="images/teslahomepagina.png" width="" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Detailpagina
-<img src="images/tesladetailspagina.jpg" width="" alt="omschrijving van de pagina">
+<img src="images/tesladetailspagina.png" width="" alt="omschrijving van de pagina">
  
 </details>
 

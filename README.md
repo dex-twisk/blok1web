@@ -58,7 +58,7 @@ Detailpagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/teslawebsitebreakpoint(1).png" width="600px" alt="breakdown van de hele pagina">
+<img src="images/teslawebsitebreakpoint.png" width="600px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/menuteslahomepagina.png" width="375px" alt="breakdown van een dynamisch deel">

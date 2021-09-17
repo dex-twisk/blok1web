@@ -61,10 +61,10 @@ Detailpagina
 <img src="images/teslawebsitebreakpoint.jpg" width="" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dynamischdeel1.jpg" width="" alt="breakdown van een dynamisch deel">
+<img src="images/dynamischdeel1.png" width="" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dynamischdeel2.jpg" width="" alt="breakdown van nog een dynamisch deel">
+<img src="images/dynamischdeel2.png" width="" alt="breakdown van nog een dynamisch deel">
 
 </details>
 

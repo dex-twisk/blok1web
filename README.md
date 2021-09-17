@@ -33,7 +33,7 @@ surface plane
 ## Je website
 
 <details open>
-<summary>Ik zou de tesla website willen namaken maar dan anders</summary>
+<summary>Ik zou de tesla website willen namaken</summary>
 
 ### Je opdracht:
 https://shop.tesla.com/

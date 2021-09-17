@@ -75,11 +75,10 @@ Detailpagina
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>De html voor de eerste pagina helemaal af. De html voor de tweede pagina bijna af</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+De html code voor de eerste pagina ging goed zonder problemen. Voor de tweede pagina ging het moeilijker wist vooral niet waar ik de images moest plaatsen.
 
 ### Agenda voor meeting
 samen met je groepje opstellen

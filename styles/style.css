@@ -1,9 +1,145 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.toplink{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3c42;
+  margin: 1em;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links1{
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links1 li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.nav-links1 li a {
+  color: #3a3c42;
+  text-decoration: none;
+}
+
+.nav-links1 li:hover {
+  background-color: #ECECEC;
+}
+
+.nav-links2{
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links2 li {
+  color: #3a3c42;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.nav-links2 li a {
+  text-decoration: none;
+}
+
+.nav-links2 li:hover {
+  background-color: #ECECEC;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  list-style: none;
+  text-decoration: none;
+  display: none;
 }
 
 
+@media (max-width: 1200px) {
+  .toggle-button {
+     display: flex;
+  }
+
+  .nav-links1{
+      flex-direction: column;
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: gainsboro;
+      width: 60%;
+  }
+
+  .nav-links2{
+      flex-direction: column;
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: gainsboro;
+      
+  }
+
+
+}
+
+.modelsimage{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.models{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modelslink{
+  display: flex;
+  list-style: none;
+  gap: 0.25em;
+  
+}
+
+.modelslink li a {
+  display: flex;
+  color: #3a3c42;
+  margin-bottom: 800px;
+}
+
+.models h2 {
+  display: flex;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3c42;
+}
+
+.modelyimage{
+  z-index: -2;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
 
 .speeddistance{
   display: flex;

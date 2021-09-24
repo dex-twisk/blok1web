@@ -1,0 +1,214 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.toplink{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3c42;
+  margin: 1em;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links1{
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links1 li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.nav-links1 li a {
+  color: #3a3c42;
+  text-decoration: none;
+}
+
+.nav-links1 li:hover {
+  background-color: #ECECEC;
+  border-radius: 50px;
+}
+
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  list-style: none;
+  text-decoration: none;
+  display: none;
+}
+
+
+@media (max-width: 1200px) {
+  .toggle-button {
+     display: flex;
+  }
+
+  
+
+  .nav-links1{
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      height: 92vh;
+      top: 8vh;
+      width: 60%;
+      display: none;
+  }
+
+
+}
+
+.modelsimage{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.models{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modelslink{
+  display: flex;
+  list-style: none;
+  gap: 0.25em;
+  
+}
+
+.modelslink li a {
+  display: flex;
+  color: #3a3c42;
+  margin-bottom: 25em;
+}
+
+.models h2 {
+  display: flex;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3c42;
+}
+
+.modelyimage{
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  margin-top: 3em;
+}
+
+.modelsbuttons{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  gap: 1em;
+}
+
+.button1{
+  background-color: #3a3c42;
+  color: white;
+  border: #3a3c42 solid 1px;
+  padding: 1em;
+  border-radius: 50px;
+}
+
+.button2{
+  background-color: white;
+  color: #3a3c42;
+  padding: 1em;
+  border-radius: 50px;
+  border: white solid 1px;
+}
+
+.models h3{
+  margin-bottom: 13em;
+}
+
+@media (max-width: 630px){
+  .modelsbuttons{
+      display: flex;
+      flex-direction: column;
+      margin: 1em;
+  }
+
+  .layout{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .orderbutton button {
+      width: 90%;
+  }
+  .speeddistance li {
+      width: 50%;
+  }
+}
+.layout{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.speeddistance{
+  display: flex;
+  justify-content: center;
+}
+
+.speeddistance li {
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.speeddistance li h3 {
+  font-size: 1.5em;
+}
+
+.speeddistance li p {
+  padding-top: 1em;
+}
+
+.orderbutton button{
+  background-color: transparent;
+  color: white;
+  border: solid 3px white;
+  border-radius: 50px;
+  padding: 1em;
+}
+
+.orderbutton{
+  display: flex;
+  justify-content: center;
+}
+
+.orderbutton button:hover {
+  background-color: white;
+  color: black;
+}
+
+.carousel-images {
+  display: flex;
+}
